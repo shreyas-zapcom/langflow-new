@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "langflow-base"
-version = "0.0.89"
+version = "0.0.88"
 description = "A Python package with a built-in web application"
 authors = ["Langflow <contact@langflow.org>"]
 maintainers = [
@@ -13,7 +13,7 @@ maintainers = [
     "Rodrigo Nader <rodrigo@langflow.org>",
     "Italo dos Anjos <italojohnnydosanjos@gmail.com>",
 ]
-repository = "https://github.com/langflow-ai/langflow"
+repository = "https://github.com/shreyas-zapcom/langflow-new.git"
 license = "MIT"
 readme = "README.md"
 keywords = ["nlp", "langchain", "openai", "gpt", "gui"]
