@@ -163,8 +163,6 @@ langchain-pinecone==0.1.2
 langchain-text-splitters==0.2.2
 langchainhub==0.1.20
 langdetect==1.0.9
-'''langflow==1.0.12'''
-
 langflow-base==0.0.88
 langfuse==2.39.3
 langsmith==0.1.93
