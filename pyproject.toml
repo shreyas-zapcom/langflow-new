@@ -13,7 +13,7 @@ maintainers = [
     "Rodrigo Nader <rodrigo@langflow.org>",
     "Italo dos Anjos <italojohnnydosanjos@gmail.com>",
 ]
-repository = "https://github.com/shreyas-zapcom/langflow-new.git"
+repository = "https://github.com/shreyas-zapcom/langflow-new.git#egg=langflow"
 license = "MIT"
 readme = "README.md"
 keywords = ["nlp", "langchain", "openai", "gpt", "gui"]
