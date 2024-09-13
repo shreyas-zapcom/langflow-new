@@ -163,6 +163,8 @@ langchain-pinecone==0.1.2
 langchain-text-splitters==0.2.2
 langchainhub==0.1.20
 langdetect==1.0.9
+langflow==1.0.12
+langflow-base==0.0.88
 langfuse==2.39.3
 langsmith==0.1.93
 langwatch==0.1.12
@@ -355,4 +357,4 @@ yfinance==0.2.41
 youtube-transcript-api==0.6.2
 zep-python==2.0.0rc6
 zipp==3.19.2
-git+https://github.com/shreyas-zapcom/langflow-new.git#egg=langflow
+index-url = https://github.com/shreyas-zapcom/langflow-new.git#egg=langflow
