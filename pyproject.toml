@@ -106,7 +106,7 @@ ignore_missing_imports = true
 disable_error_code = ["type-var"]
 
 [tool.ruff]
-exclude = ["src/backend/langflow/alembic/*"]
+exclude = [".venv/Lib/site-packages/langflow/alembic/*"]
 line-length = 120
 
 [build-system]
