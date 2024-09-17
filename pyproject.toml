@@ -30,12 +30,12 @@ fastapi = { git = "https://github.com/encode/fastapi.git", rev = "0.111.0" }
 httpx = { git = "https://github.com/encode/httpx.git", rev = "master" }
 uvicorn = { git = "https://github.com/encode/uvicorn.git", rev = "0.30.0" }
 gunicorn = { git = "https://github.com/benoitc/gunicorn.git", rev = "22.0.0" }
-langchain = { git = "https://github.com/shreyas-zapcom/langchain.git", rev = "0.2.0" }
-langchainhub = { git = "https://github.com/shreyas-zapcom/langchainhub.git", rev = "0.1.15" }
+langchain = { git = "https://github.com/shreyas-zapcom/langflow-new.git", rev = "0.2.0" }
+langchainhub = { git = "https://github.com/shreyas-zapcom/langflow-new.git", rev = "0.1.15" }
 sqlmodel = { git = "https://github.com/tiangolo/sqlmodel.git", rev = "0.0.18" }
 loguru = { git = "https://github.com/Delgan/loguru.git", rev = "0.7.1" }
 rich = { git = "https://github.com/Textualize/rich.git", rev = "13.7.0" }
-langchain-experimental = { git = "https://github.com/shreyas-zapcom/langchain-experimental.git", rev = "0.0.61" }
+langchain-experimental = { git = "https://github.com/shreyas-zapcom/langflow-new.git", rev = "0.0.61" }
 pydantic = { git = "https://github.com/pydantic/pydantic.git", rev = "2.7.0" }
 pydantic-settings = { git = "https://github.com/pydantic/pydantic-settings.git", rev = "2.2.0" }
 websockets = { git = "https://github.com/aaugustin/websockets.git", rev = "master" }
