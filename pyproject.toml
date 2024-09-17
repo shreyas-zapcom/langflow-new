@@ -17,8 +17,15 @@ repository = "https://github.com/shreyas-zapcom/langflow-new"
 license = "MIT"
 readme = "README.md"
 keywords = ["nlp", "langchain", "openai", "gpt", "gui"]
-packages = [{ include = "langflow" }, { include = "langflow/py.typed" }]
+
+# Adjusting packages to ensure `langflow` is included
+packages = [
+    { include = "langflow", from = ".venv/Lib/site-packages" }
+]
+
+# Make sure the include directive accurately points to the `langflow` directory
 include = ["pyproject.toml", "README.md", "langflow/**/*"]
+
 documentation = "https://docs.langflow.org"
 
 [tool.poetry.scripts]
