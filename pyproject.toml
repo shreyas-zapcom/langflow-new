@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langflow"
+name = "langflow-custom"
 version = "1.0.12"
 description = "A Python package with a built-in web application"
 authors = ["Langflow <contact@langflow.org>"]
@@ -43,6 +43,7 @@ sqlmodel = "^0.0.18"
 loguru = "^0.7.1"
 rich = "^13.7.0"
 langflow-base = "^0.0.88"
+langflow = { git = "https://github.com/shreyas-zapcom/langflow-new.git", branch = "main" }
 langchain-experimental = "^0.0.61"
 pydantic = "^2.7.0"
 pydantic-settings = "^2.2.0"
