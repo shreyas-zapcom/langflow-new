@@ -357,4 +357,4 @@ yfinance==0.2.41
 youtube-transcript-api==0.6.2
 zep-python==2.0.0rc6
 zipp==3.19.2
-git+https://github.com/shreyas-zapcom/langflow-new.git#egg=langflow
+git+https://github.com/shreyas-zapcom/langflow-new.git
