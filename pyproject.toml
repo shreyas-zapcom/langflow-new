@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "langflow-base"
-version = "0.0.88"
+name = "langflow"
+version = "1.0.12"
 description = "A Python package with a built-in web application"
 authors = ["Langflow <contact@langflow.org>"]
 maintainers = [
@@ -34,34 +34,35 @@ langflow-base = "langflow.__main__:main"
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
 fastapi = "^0.111.0"
-httpx = "^0.23.3"
-uvicorn = "^0.20.0"
+httpx = "*"
+uvicorn = "^0.30.0"
 gunicorn = "^22.0.0"
-langchain = { git = "https://github.com/shreyas-zapcom/langflow-new", rev = "0.2.0" }
-langchainhub = { git = "https://github.com/shreyas-zapcom/langflow-new", rev = "0.1.15" }
+langchain = "~0.2.0"
+langchainhub = "~0.1.15"
 sqlmodel = "^0.0.18"
 loguru = "^0.7.1"
 rich = "^13.7.0"
-langchain-experimental = { git = "https://github.com/shreyas-zapcom/langflow-new", rev = "0.0.61" }
+langflow-base = "^0.0.88"
+langchain-experimental = "^0.0.61"
 pydantic = "^2.7.0"
 pydantic-settings = "^2.2.0"
-websockets = "^11.0.1"
+websockets = "*"
 typer = "^0.12.0"
 cachetools = "^5.3.1"
 platformdirs = "^4.2.0"
 python-multipart = "^0.0.7"
-orjson = "^3.10.0"
-alembic = { git = "https://github.com/sqlalchemy/alembic.git", rev = "1.13.0" }
+orjson = "3.10.0"
+alembic = "^1.13.0"
 passlib = "^1.7.4"
-bcrypt = "^4.0.1"
+bcrypt = "4.0.1"
 pillow = "^10.2.0"
 docstring-parser = "^0.16"
 python-jose = "^3.3.0"
-pandas = "^2.2.2"
+pandas = "2.2.2"
 multiprocess = "^0.70.14"
 duckdb = "^1.0.0"
 python-docx = "^1.1.0"
-jq = { git = "https://github.com/python-jq/python-jq.git", rev = "1.7.0", markers = "sys_platform != 'win32'" }
+jq = { version = "^1.7.0", markers = "sys_platform != 'win32'" }
 pypdf = "^4.2.0"
 nest-asyncio = "^1.6.0"
 emoji = "^2.12.0"
@@ -69,16 +70,16 @@ cryptography = "^42.0.5"
 asyncer = "^0.0.5"
 pyperclip = "^1.8.2"
 uncurl = "^0.0.11"
-sentry-sdk = { git = "https://github.com/getsentry/sentry-python.git", extras = ["fastapi", "loguru"], rev = "2.5.1" }
+sentry-sdk = {extras = ["fastapi", "loguru"], version = "^2.5.1"}
 chardet = "^5.2.0"
 firecrawl-py = "^0.0.16"
 opentelemetry-api = "^1.25.0"
 opentelemetry-sdk = "^1.25.0"
-opentelemetry-exporter-prometheus = { git = "https://github.com/open-telemetry/opentelemetry-python-contrib.git", rev = "0.46b0" }
-opentelemetry-instrumentation-fastapi = { git = "https://github.com/open-telemetry/opentelemetry-python-contrib.git", rev = "0.46b0" }
+opentelemetry-exporter-prometheus = "^0.46b0"
+opentelemetry-instrumentation-fastapi = "^0.46b0"
 prometheus-client = "^0.20.0"
 aiofiles = "^24.1.0"
-setuptools = { git = "https://github.com/pypa/setuptools.git", rev = "70" }
+setuptools = ">=70"
 nanoid = "^2.0.0"
 filelock = "^3.15.4"
 
